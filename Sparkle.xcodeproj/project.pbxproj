@@ -1805,6 +1805,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FA1941CA0D94A70100DD942E /* ConfigFrameworkDebug.xcconfig */;
 			buildSettings = {
+				DYLIB_INSTALL_NAME_BASE = "@loader_path/Frameworks";
+				INSTALL_PATH = "@loader_path/Frameworks";
 			};
 			name = Coverage;
 		};
@@ -1858,6 +1860,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FA1941CA0D94A70100DD942E /* ConfigFrameworkDebug.xcconfig */;
 			buildSettings = {
+				DYLIB_INSTALL_NAME_BASE = "@loader_path/Frameworks";
+				INSTALL_PATH = "@loader_path/Frameworks";
 			};
 			name = Debug;
 		};
@@ -1865,6 +1869,8 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = FA1941D50D94A70100DD942E /* ConfigFrameworkRelease.xcconfig */;
 			buildSettings = {
+				DYLIB_INSTALL_NAME_BASE = "@loader_path/Frameworks";
+				INSTALL_PATH = "@loader_path/Frameworks";
 			};
 			name = Release;
 		};
